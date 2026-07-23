@@ -1,0 +1,12 @@
+# 시크릿 — 절대 커밋 금지 (배포 키는 테스트넷 버너라도 예외 없음)
+.env
+
+# hardhat
+node_modules
+cache
+artifacts
+coverage
+typechain-types
+
+# 검증 제출용 로컬 산출물
+standard-input.json
