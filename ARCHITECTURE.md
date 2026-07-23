@@ -97,6 +97,8 @@ function finalizeSeason(
 ## 기술 스택
 
 - **포털**: Vanilla JS + Vite, Firebase Auth / Firestore (실시간 리더보드·재화 동기화)
+- **호스팅/CDN**: Cloudflare Pages — 포털과 게임 번들 전체를 엣지에서 정적 서빙.
+  설치·로딩 장벽 없는 즉시 플레이가 온보딩 퍼널의 첫 단계
 - **오라클/백엔드**: Firebase Cloud Functions (Node.js)
 - **컨트랙트**: Solidity 0.8.28, OpenZeppelin v5, Hardhat — 이 저장소
 - **체인**: GIWA Sepolia (OP Stack L2, 1s block) → 메인넷 공개 시 전환
